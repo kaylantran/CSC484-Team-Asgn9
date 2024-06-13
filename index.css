@@ -1,0 +1,721 @@
+.recommendation-column-icon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 174px;
+  top: 0;
+  transform: scale(2.16);
+}
+.wrapper-recommendation-column {
+  height: 976px;
+  width: 300px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 488px);
+  left: 343px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.user-profile-display {
+  height: 150px;
+  width: 150px;
+  position: relative;
+}
+.profile-and-chatbot {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl);
+}
+.chatbot-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: var(--muse-color);
+}
+.ask-muse {
+  margin: 0;
+  height: 84px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.chatbot-closed,
+.chatbot-prompt,
+.main-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chatbot-prompt {
+  margin-left: -72px;
+  width: 644px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 0 var(--padding-3xs);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  max-width: 129%;
+  z-index: 1;
+}
+.chatbot-closed,
+.main-content {
+  max-width: 100%;
+}
+.chatbot-closed {
+  align-self: stretch;
+  height: 80px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+.main-content {
+  width: 500px;
+  flex-direction: column;
+  gap: 830px;
+  font-size: 50px;
+}
+.everybody-dies,
+.lost-cause {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.everybody-dies {
+  align-self: stretch;
+  height: 45px;
+  line-height: 45px;
+  flex-shrink: 0;
+}
+.lost-cause {
+  text-decoration: none;
+  height: 51px;
+  color: inherit;
+}
+.lost-cause-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 53px;
+}
+.everybody-dies-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.top-songs-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 13px var(--padding-7xs);
+}
+.nda {
+  height: 51px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nda-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 74px;
+}
+.oxytocin {
+  height: 51px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.oxytocin-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 56px;
+}
+.happier-than-ever {
+  height: 51px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-group {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.frame-group,
+.frame-parent,
+.top-songs-child {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-smi);
+}
+.top-songs-child {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 18px var(--padding-15xl) 23px;
+}
+.breathe-in-the,
+.speak-to-me {
+  height: 50px;
+  position: relative;
+  color: inherit;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.speak-to-me {
+  align-self: stretch;
+}
+.breathe-in-the {
+  width: 240px;
+}
+.frame-div,
+.speak-to-me-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.speak-to-me-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+}
+.frame-div {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-3xl) var(--padding-7xs);
+}
+.on-the-run {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.on-the-run-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 28.4px var(--padding-12xs);
+}
+.time {
+  align-self: stretch;
+  position: relative;
+  line-height: 19.7px;
+}
+.the-great-gig {
+  position: relative;
+  line-height: 25.1px;
+}
+.time-parent {
+  align-self: stretch;
+  height: 138.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  gap: 33.3px;
+}
+.dreams-tonite,
+.in-undertow {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.in-undertow {
+  align-self: stretch;
+  height: 50px;
+  flex-shrink: 0;
+}
+.dreams-tonite {
+  height: 48px;
+  flex: 1;
+}
+.dreams-tonite-wrapper,
+.in-undertow-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xs) 0 8px;
+}
+.in-undertow-parent {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  gap: 10px;
+}
+.plimsoll-punks {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.plimsoll-punks-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.not-my-baby,
+.your-type {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.not-my-baby {
+  height: 51px;
+}
+.your-type-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+}
+.music-recommendations,
+.top-songs,
+.top-songs-inner1,
+.your-type-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.top-songs-inner1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.music-recommendations,
+.top-songs {
+  flex-direction: column;
+}
+.top-songs {
+  align-self: stretch;
+  gap: var(--gap-11xs);
+}
+.music-recommendations {
+  width: 256px;
+  padding: 45px 0 0;
+  box-sizing: border-box;
+}
+.reccomendation-column-icon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 174px;
+  top: 0;
+  transform: scale(2.16);
+}
+.all-mine,
+.wrapper-reccomendation-column {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-reccomendation-column {
+  height: 976px;
+  width: 300px;
+}
+.all-mine {
+  text-decoration: none;
+  height: 51px;
+  color: inherit;
+}
+.all-mine-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-20xl) 0 38px;
+}
+.worth-the-wait {
+  height: 51px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent1,
+.frame-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.frame-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-20xl) 0 43px;
+}
+.i-wish-you {
+  height: 51px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.i-wish-you-roses-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 31px 4px var(--padding-15xl);
+}
+.in-my-garden {
+  z-index: 1;
+}
+.happy-now,
+.in-my-garden {
+  height: 51px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.happy-now-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xl) 0 12px;
+}
+.frame-wrapper1,
+.happy-now-wrapper,
+.in-my-garden-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.in-my-garden-parent {
+  flex: 1;
+  flex-direction: column;
+}
+.frame-wrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 40px 14px 46px;
+}
+.black-madonna,
+.broken-boy,
+.night-running,
+.skin-and-bones,
+.social-cues {
+  align-self: stretch;
+  height: 51px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.black-madonna,
+.night-running,
+.skin-and-bones,
+.social-cues {
+  height: 50px;
+}
+.black-madonna,
+.night-running,
+.skin-and-bones {
+  z-index: 1;
+}
+.night-running,
+.skin-and-bones {
+  z-index: 2;
+}
+.skin-and-bones {
+  z-index: 3;
+}
+.broken-boy-parent,
+.social-cues-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.broken-boy-parent {
+  padding: 0 0 var(--padding-13xl);
+  gap: 7px;
+}
+.dead-leaves-and,
+.hotel-yorba {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.hotel-yorba {
+  z-index: 1;
+}
+.im-finding-it {
+  z-index: 2;
+}
+.expecting,
+.fell-in-love,
+.im-finding-it {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.dead-leaves-and-parent {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+  gap: 1px;
+}
+.dead-leaves-and-parent,
+.frame-container,
+.recommendation-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame-container {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.recommendation-list {
+  width: 255px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  min-width: 255px;
+}
+.recommendations-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.additional-recommendations,
+.homepage-no-interaction {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.additional-recommendations {
+  flex-direction: column;
+  padding: var(--padding-13xl) 0 0;
+  max-width: 100%;
+}
+.homepage-no-interaction {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-xl) 0 0;
+  gap: 192px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--default-reg-text-style-size);
+  color: var(--color-black);
+  font-family: var(--default-reg-text-style);
+}
+@media screen and (max-width: 1650px) {
+  .homepage-no-interaction {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .music-recommendations {
+    padding-top: 29px;
+    box-sizing: border-box;
+  }
+  .homepage-no-interaction {
+    gap: 96px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .ask-muse {
+    font-size: 40px;
+  }
+  .main-content {
+    gap: 415px;
+  }
+  .breathe-in-the,
+  .dreams-tonite,
+  .everybody-dies,
+  .happier-than-ever,
+  .in-undertow,
+  .lost-cause,
+  .nda,
+  .not-my-baby,
+  .on-the-run,
+  .oxytocin,
+  .plimsoll-punks,
+  .speak-to-me,
+  .the-great-gig,
+  .time,
+  .your-type {
+    font-size: var(--font-size-5xl);
+  }
+  .music-recommendations {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .reccomendation-column-icon {
+    flex: 1;
+  }
+  .all-mine,
+  .black-madonna,
+  .broken-boy,
+  .dead-leaves-and,
+  .expecting,
+  .fell-in-love,
+  .happy-now,
+  .hotel-yorba,
+  .i-wish-you,
+  .im-finding-it,
+  .in-my-garden,
+  .night-running,
+  .skin-and-bones,
+  .social-cues,
+  .worth-the-wait {
+    font-size: var(--font-size-5xl);
+  }
+  .recommendation-list {
+    flex: 1;
+  }
+  .recommendations-container {
+    flex-wrap: wrap;
+    gap: var(--gap-5xl);
+  }
+  .homepage-no-interaction {
+    gap: var(--gap-29xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ask-muse {
+    font-size: var(--default-reg-text-style-size);
+  }
+  .main-content {
+    gap: 207px;
+  }
+  .breathe-in-the,
+  .everybody-dies,
+  .happier-than-ever,
+  .lost-cause,
+  .nda,
+  .on-the-run,
+  .oxytocin,
+  .speak-to-me,
+  .the-great-gig,
+  .time {
+    font-size: var(--font-size-lg);
+  }
+  .time-parent {
+    gap: 17px;
+  }
+  .all-mine,
+  .dreams-tonite,
+  .in-undertow,
+  .not-my-baby,
+  .plimsoll-punks,
+  .worth-the-wait,
+  .your-type {
+    font-size: var(--font-size-lg);
+  }
+  .frame-wrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .happy-now,
+  .i-wish-you,
+  .in-my-garden {
+    font-size: var(--font-size-lg);
+  }
+  .frame-wrapper1 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .black-madonna,
+  .broken-boy,
+  .dead-leaves-and,
+  .expecting,
+  .fell-in-love,
+  .hotel-yorba,
+  .im-finding-it,
+  .night-running,
+  .skin-and-bones,
+  .social-cues {
+    font-size: var(--font-size-lg);
+  }
+  .homepage-no-interaction {
+    gap: var(--gap-5xl);
+  }
+}
