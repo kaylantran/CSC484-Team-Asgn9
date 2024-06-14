@@ -1012,7 +1012,15 @@
   z-index: 2;
   margin-left: -145px;
 }
+.chatbot{
+  display: block;
+  position: fixed;
+  top: 1047px;
+  left: 1535px;
+  z-index: 1000;
+}
 .chatbot-closed,
+.chatbot,
 .chatbot-closed-wrapper,
 .fell-in-love-with-a-parent {
   display: flex;
