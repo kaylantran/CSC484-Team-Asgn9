@@ -24,7 +24,11 @@
 .muse-logo {
   height: 112px;
   width: 267.7px;
-  position: absolute;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
   margin: 0 !important;
   top: 16px;
   left: 16px;
@@ -809,7 +813,7 @@
   min-width: 125px;
   font-size: 16px;
   left: 1780px;
-  top:25px;
+  top:20px;
   font-family: var(--font-nunito-sans);
 }
 .user-container {
