@@ -1,4 +1,4 @@
-.muse-icon, .music-note-icon {
+muse-icon, .music-note-icon {
   object-fit: cover;
   width: 84.05%;
   max-width: 100%;
@@ -25,7 +25,7 @@
   justify-content: flex-start;
   align-items: flex-end;
   width: 267.7px;
-  height: 112px;
+  height: 100px;
   display: flex;
   position: fixed;
   top: 16px;
@@ -86,11 +86,21 @@
   display: flex;
 }
 
-.everybody-dies, .lost-cause {
+.everybody-dies {
   justify-content: center;
   align-items: center;
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 30px;
+  left: 665px;
+}
+
+.lost-cause {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 90px;
 }
 
 .everybody-dies {
@@ -117,7 +127,8 @@
 .nda {
   align-items: center;
   height: 51px;
-  position: relative;
+  position: absolute;
+  top: 160px;
 }
 
 .cause-details1, .nda, .oxytocin {
@@ -135,7 +146,8 @@
 .oxytocin {
   align-items: center;
   height: 51px;
-  position: relative;
+  position: absolute;
+  top: 220px;
 }
 
 .oxytocin-wrapper {
@@ -152,7 +164,8 @@
   align-items: center;
   height: 51px;
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 280px;
 }
 
 .frame-div, .frame-parent1 {
@@ -192,7 +205,20 @@
   display: flex;
 }
 
-.breathe-in-the, .speak-to-me {
+.speak-to-me {
+  color: inherit;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  top: 350px;
+  left: 675px;
+}
+
+.breathe-in-the {
   color: inherit;
   flex-shrink: 0;
   justify-content: center;
@@ -200,7 +226,9 @@
   height: 50px;
   text-decoration: none;
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 420px;
+  left: 640px;
 }
 
 .speak-to-me {
@@ -228,7 +256,9 @@
   align-items: flex-end;
   height: 50px;
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 480px;
+  left: 685px;
 }
 
 .on-the-run-wrapper {
@@ -240,12 +270,24 @@
   display: flex;
 }
 
-.the-great-gig, .time {
+.time {
   flex-shrink: 0;
   justify-content: center;
   align-items: flex-end;
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 580px;
+  left: 730px;
+}
+
+.the-great-gig {
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: 620px;
+  left: 635px;
 }
 
 .time {
@@ -276,11 +318,22 @@
   align-self: stretch;
 }
 
-.dreams-tonite, .in-undertow {
+.in-undertow {
   justify-content: center;
   align-items: flex-end;
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 710px;
+  left: 685px;
+}
+
+.dreams-tonite {
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: 770px;
+  left: 675px;
 }
 
 .in-undertow {
@@ -323,11 +376,17 @@
 
 .plimsoll-punks {
   flex-shrink: 0;
+  justify-content: center;
   align-self: stretch;
+  align-items: flex-end;
   height: 50px;
+  display: flex;
+  position: relative;
+  top: -15px;
+  left: 10px;
 }
 
-.not-my-baby, .plimsoll-punks, .your-type {
+.your-type, .not-my-baby {
   justify-content: center;
   align-items: flex-end;
   display: flex;
@@ -449,6 +508,7 @@
   height: 52px;
   display: flex;
   position: relative;
+  top: 10px;
 }
 
 .kill-bill-details {
@@ -467,6 +527,7 @@
   height: 50px;
   display: flex;
   position: relative;
+  left: -10px;
 }
 
 .i-hate-u-wrapper {
@@ -485,6 +546,8 @@
   height: 50px;
   display: flex;
   position: relative;
+  top: -5px;
+  left: -10px;
 }
 
 .shirt-wrapper {
@@ -503,6 +566,7 @@
   height: 50px;
   display: flex;
   position: relative;
+  top: -10px;
 }
 
 .good-days-titles {
@@ -521,6 +585,7 @@
   height: 50px;
   display: flex;
   position: relative;
+  top: -15px;
 }
 
 .kill-bill-details-parent, .kill-bill-wrapper {
@@ -548,6 +613,7 @@
   height: 51px;
   display: flex;
   position: relative;
+  top: -15px;
 }
 
 .slow-angel-wrapper {
@@ -566,6 +632,7 @@
   height: 50px;
   display: flex;
   position: relative;
+  top: -30px;
 }
 
 .japanese-posters-wrapper {
@@ -584,6 +651,7 @@
   height: 52px;
   display: flex;
   position: relative;
+  top: -35px;
 }
 
 .swim-zone-wrapper {
@@ -600,6 +668,7 @@
   align-items: flex-end;
   display: flex;
   position: relative;
+  top: -35px;
 }
 
 .meet-me-at {
@@ -784,6 +853,7 @@
   text-decoration: none;
   display: flex;
   position: relative;
+  top: -120px;
 }
 
 .all-mine-wrapper {
@@ -801,6 +871,7 @@
   height: 51px;
   display: flex;
   position: relative;
+  top: -125px;
 }
 
 .worth-the-wait-wrapper {
@@ -818,6 +889,7 @@
   height: 51px;
   display: flex;
   position: relative;
+  top: -130px;
 }
 
 .in-my-garden {
@@ -917,6 +989,7 @@
   height: 51px;
   display: flex;
   position: relative;
+  top: -130px;
 }
 
 .worth-the-wait-container {
@@ -953,6 +1026,7 @@
   height: 51px;
   display: flex;
   position: relative;
+  top: -130px;
 }
 
 .broken-boy-wrapper {
@@ -964,7 +1038,7 @@
   display: flex;
 }
 
-.black-madonna, .night-running, .skin-and-bones, .social-cues {
+.social-cues {
   z-index: 1;
   flex-shrink: 0;
   justify-content: center;
@@ -973,6 +1047,31 @@
   height: 50px;
   display: flex;
   position: relative;
+  top: -120px;
+}
+
+.black-madonna {
+  z-index: 1;
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+  top: -100px;
+}
+
+.night-running, .skin-and-bones {
+  z-index: 1;
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+  top: -90px;
 }
 
 .black-madonna, .night-running, .skin-and-bones {
@@ -997,12 +1096,22 @@
   display: flex;
 }
 
-.dead-leaves-and, .hotel-yorba, .im-finding-it {
+.dead-leaves-and, .hotel-yorba {
   justify-content: center;
   align-items: flex-end;
   height: 50px;
   display: flex;
   position: relative;
+  top: -70px;
+}
+
+.im-finding-it {
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+  top: -60px;
 }
 
 .dead-leaves-and, .hotel-yorba {
@@ -1024,21 +1133,34 @@
   display: flex;
 }
 
-.expecting, .fell-in-love {
+.fell-in-love {
+  top: 51x;
   justify-content: center;
   align-items: flex-end;
   width: 250px;
   display: flex;
+  position: relative;
+}
+
+.expecting {
+  justify-content: center;
+  align-items: flex-end;
+  width: 250px;
+  display: flex;
+  position: relative;
+  top: 90px;
 }
 
 .fell-in-love {
   flex-shrink: 0;
   height: 19.7px;
   position: relative;
+  top: 25px;
 }
 
 .expecting {
   height: 50px;
+  position: relative;
   top: 6px;
   left: -5px;
 }
@@ -1158,6 +1280,7 @@
   height: 52px;
   display: flex;
   position: relative;
+  top: 50px;
 }
 
 .understand-wrapper {
@@ -1177,6 +1300,7 @@
   height: 50px;
   display: flex;
   position: relative;
+  top: 40px;
 }
 
 .new-me-wrapper {
@@ -1196,6 +1320,7 @@
   height: 50px;
   display: flex;
   position: relative;
+  top: 35px;
 }
 
 .leaves-titles {
@@ -1215,6 +1340,8 @@
   height: 50px;
   display: flex;
   position: relative;
+  top: 30px;
+  left: -15px;
 }
 
 .leaves-titles1 {
@@ -1234,6 +1361,7 @@
   height: 50px;
   display: flex;
   position: relative;
+  top: 20px;
 }
 
 .dead-leaves-and-parent, .never-lose-me-wrapper {
@@ -1264,6 +1392,7 @@
   height: 51px;
   display: flex;
   position: relative;
+  top: 20px;
 }
 
 .shut-it-down {
@@ -1296,6 +1425,7 @@
   height: 50px;
   display: flex;
   position: relative;
+  top: 15px;
 }
 
 .i-know-you {

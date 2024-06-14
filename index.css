@@ -82,9 +82,17 @@
   box-sizing: border-box;
   min-width: 195px;
 }
-.everybody-dies,
+.everybody-dies {
+  position: absolute;
+  top: 30px;
+  left: 665px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .lost-cause {
-  position: relative;
+  position: absolute;
+  top: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,7 +117,8 @@
 }
 .nda {
   height: 51px;
-  position: relative;
+  position: absolute;
+  top: 160px;
   align-items: center;
 }
 .cause-details1,
@@ -126,7 +135,8 @@
 }
 .oxytocin {
   height: 51px;
-  position: relative;
+  position: absolute;
+  top: 220px;
   align-items: center;
 }
 .oxytocin-wrapper {
@@ -139,7 +149,8 @@
 }
 .happier-than-ever {
   height: 51px;
-  position: relative;
+  position: absolute;
+  top: 280px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -177,10 +188,23 @@
   justify-content: flex-end;
   padding: 0 var(--padding-3xs) 36px var(--padding-5xs);
 }
-.breathe-in-the,
 .speak-to-me {
   height: 50px;
-  position: relative;
+  position: absolute;
+  top: 350px;
+  left: 675px;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.breathe-in-the {
+height: 50px;
+  position: absolute;
+  top: 420px;
+  left: 640px;
   color: inherit;
   display: flex;
   align-items: flex-end;
@@ -188,6 +212,7 @@
   flex-shrink: 0;
   text-decoration: none;
 }
+
 .speak-to-me {
   align-self: stretch;
 }
@@ -207,7 +232,9 @@
 .on-the-run {
   height: 50px;
   flex: 1;
-  position: relative;
+  position: absolute;
+  top: 480px;
+  left: 685px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -220,9 +247,20 @@
   justify-content: flex-end;
   padding: 0 var(--padding-3xs) var(--padding-11xl-4) 3px;
 }
-.the-great-gig,
+
 .time {
-  position: relative;
+  position: absolute;
+  top: 580px;
+  left: 730px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.the-great-gig {
+  position: absolute;
+  top: 620px;
+  left: 635px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -252,12 +290,22 @@
   justify-content: flex-end;
   padding: 0 var(--padding-8xs) 62.5px var(--padding-11xs);
 }
-.dreams-tonite,
 .in-undertow {
-  position: relative;
+  position: absolute;
+  top: 710px;
+  left: 685px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+.dreams-tonite {
+  position: absolute;
+  top: 770px;
+  left: 675px; 
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
 }
 .in-undertow {
   align-self: stretch;
@@ -297,9 +345,23 @@
   height: 50px;
   flex-shrink: 0;
 }
-.not-my-baby,
-.plimsoll-punks,
+
+.plimsoll-punks {
+  position: relative;
+  top: -15px;
+  left: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+}
 .your-type {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.not-my-baby {
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -406,6 +468,7 @@
   height: 52px;
   flex: 1;
   position: relative;
+  top: 10px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -422,6 +485,7 @@
   height: 50px;
   flex: 1;
   position: relative;
+  left: -10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -438,6 +502,8 @@
   height: 50px;
   flex: 1;
   position: relative;
+  top: -5px;
+  left: -10px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -454,6 +520,7 @@
   height: 50px;
   flex: 1;
   position: relative;
+  top: -10px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -470,6 +537,7 @@
   height: 50px;
   flex: 1;
   position: relative;
+  top: -15px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -494,6 +562,7 @@
   height: 51px;
   flex: 1;
   position: relative;
+  top: -15px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -510,6 +579,7 @@
   height: 50px;
   flex: 1;
   position: relative;
+  top: -30px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -526,6 +596,7 @@
   height: 52px;
   flex: 1;
   position: relative;
+  top: -35px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -542,6 +613,7 @@
 .meet-me-at {
   position: relative;
   display: flex;
+  top: -35px;
   align-items: flex-end;
   justify-content: center;
 }
@@ -706,6 +778,7 @@
   text-decoration: none;
   height: 51px;
   position: relative;
+  top: -120px;
   color: inherit;
   display: flex;
   align-items: center;
@@ -722,6 +795,7 @@
 .worth-the-wait {
   height: 51px;
   position: relative;
+  top: -125px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -738,6 +812,7 @@
 .in-my-garden {
   height: 51px;
   position: relative;
+  top: -130px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -827,6 +902,7 @@
 .happy-now {
   height: 51px;
   position: relative;
+  top: -130px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -859,6 +935,7 @@
   height: 51px;
   flex: 1;
   position: relative;
+  top: -130px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -871,13 +948,44 @@
   justify-content: flex-start;
   padding: 0 0 0 var(--padding-11xs);
 }
-.black-madonna,
-.night-running,
-.skin-and-bones,
 .social-cues {
   align-self: stretch;
   height: 50px;
   position: relative;
+  top: -120px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.black-madonna {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  top: -100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.night-running {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  top: -90px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.skin-and-bones {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  top: -90px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -905,11 +1013,26 @@
   padding: 0 var(--padding-xl) var(--padding-10xl) 0;
   box-sizing: border-box;
 }
-.dead-leaves-and,
-.hotel-yorba,
+.dead-leaves-and {
+  height: 50px;
+  position: relative;
+  top: -70px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.hotel-yorba {
+  height: 50px;
+  position: relative;
+  top: -70px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
 .im-finding-it {
   height: 50px;
   position: relative;
+  top: -60px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -931,20 +1054,33 @@
   padding: 0 var(--padding-xl) var(--padding-11xl-4) 0;
   box-sizing: border-box;
 }
-.expecting,
+
 .fell-in-love {
   width: 250px;
   display: flex;
+  position: relative;
+  top: 51x;
+  align-items: flex-end;
+  justify-content: center;
+}
+.expecting {
+  width: 250px;
+  display: flex;
+  position: relative;
+  top: 90px;
   align-items: flex-end;
   justify-content: center;
 }
 .fell-in-love {
   height: 19.7px;
   position: relative;
+  top: 25px;
   flex-shrink: 0;
 }
 .expecting {
   height: 50px;
+  position: relative;
+  top: 9px;
   top: 6px;
   left: -5px;
 }
@@ -1061,6 +1197,7 @@
   height: 52px;
   flex: 1;
   position: relative;
+  top: 50px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -1078,6 +1215,7 @@
   height: 50px;
   flex: 1;
   position: relative;
+  top: 40px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -1095,6 +1233,7 @@
   height: 50px;
   flex: 1;
   position: relative;
+  top: 35px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -1112,6 +1251,8 @@
   height: 50px;
   flex: 1;
   position: relative;
+  top: 30px;
+  left: -15px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -1129,6 +1270,7 @@
   height: 50px;
   flex: 1;
   position: relative;
+  top: 20px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -1156,6 +1298,7 @@
   align-self: stretch;
   height: 51px;
   position: relative;
+  top: 20px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -1186,6 +1329,7 @@
 .i-know-you {
   height: 50px;
   position: relative;
+  top: 15px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
