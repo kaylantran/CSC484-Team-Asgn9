@@ -1,0 +1,1589 @@
+.muse-icon, .music-note-icon {
+  object-fit: cover;
+  width: 84.05%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  position: absolute;
+  inset: 0 15.95% 0 0;
+  overflow: hidden;
+}
+
+.music-note-icon {
+  object-fit: contain;
+  z-index: 1;
+  width: 19.31%;
+  height: 70.27%;
+  bottom: 29.73%;
+  left: 80.69%;
+  right: 0;
+}
+
+.muse-logo {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 267.7px;
+  height: 112px;
+  display: flex;
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  margin: 0 !important;
+}
+
+.image-1-icon, .image-4-icon {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  margin: 0 !important;
+}
+
+.image-1-icon {
+  bottom: 378px;
+  left: 282px;
+}
+
+.image-4-icon {
+  bottom: 26px;
+  right: 540px;
+}
+
+.recommendation-column-icon {
+  object-fit: contain;
+  flex-shrink: 0;
+  align-self: stretch;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 174px;
+  overflow: hidden;
+  transform: scale(2.16);
+}
+
+.wrapper-recommendation-column {
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  max-width: 100%;
+  height: 976px;
+  display: flex;
+  position: relative;
+}
+
+.wrapper-recommendation-column-wrapper {
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: flex-start;
+  min-width: 195px;
+  display: flex;
+}
+
+.everybody-dies, .lost-cause {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.everybody-dies {
+  flex-shrink: 0;
+  align-self: stretch;
+  height: 50px;
+}
+
+.lost-cause {
+  color: inherit;
+  height: 51px;
+  text-decoration: none;
+}
+
+.cause-details {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 53px;
+  display: flex;
+}
+
+.nda {
+  align-items: center;
+  height: 51px;
+  position: relative;
+}
+
+.cause-details1, .nda, .oxytocin {
+  justify-content: center;
+  display: flex;
+}
+
+.cause-details1 {
+  padding: 0 var(--padding-6xl) 0 var(--padding-xl);
+  flex-direction: row;
+  align-self: stretch;
+  align-items: flex-start;
+}
+
+.oxytocin {
+  align-items: center;
+  height: 51px;
+  position: relative;
+}
+
+.oxytocin-wrapper {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 56px;
+  display: flex;
+}
+
+.happier-than-ever {
+  justify-content: center;
+  align-items: center;
+  height: 51px;
+  display: flex;
+  position: relative;
+}
+
+.frame-div, .frame-parent1 {
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-parent1 {
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  flex-direction: column;
+  flex: 1;
+}
+
+.frame-div {
+  padding: 0 var(--padding-5xs) 0 17px;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+}
+
+.everybody-dies-parent {
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: var(--gap-sm);
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.frame-wrapper {
+  padding: 0 var(--padding-3xs) 36px var(--padding-5xs);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.breathe-in-the, .speak-to-me {
+  color: inherit;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+}
+
+.speak-to-me {
+  align-self: stretch;
+}
+
+.breathe-in-the {
+  width: 240px;
+}
+
+.speak-to-me-parent {
+  padding: 0 0 var(--padding-5xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  flex-direction: column;
+  width: 250px;
+  display: flex;
+}
+
+.on-the-run {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.on-the-run-wrapper {
+  padding: 0 var(--padding-3xs) var(--padding-11xl-4) 3px;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.the-great-gig, .time {
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  position: relative;
+}
+
+.time {
+  align-self: stretch;
+  height: 19.7px;
+}
+
+.the-great-gig {
+  height: 25.1px;
+}
+
+.frame-wrapper1, .time-parent {
+  align-items: flex-start;
+  display: flex;
+}
+
+.time-parent {
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  gap: 33.3px;
+}
+
+.frame-wrapper1 {
+  padding: 0 var(--padding-8xs) 62.5px var(--padding-11xs);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+}
+
+.dreams-tonite, .in-undertow {
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  position: relative;
+}
+
+.in-undertow {
+  flex-shrink: 0;
+  align-self: stretch;
+  height: 50px;
+}
+
+.dreams-tonite {
+  flex: 1;
+  height: 48px;
+}
+
+.dreams-tonite-wrapper {
+  padding: 0 var(--padding-8xs) 0 var(--padding-5xs);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.in-undertow-parent {
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px;
+  display: flex;
+}
+
+.frame-wrapper2 {
+  padding: 0 var(--padding-8xs) 0 var(--padding-11xs);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.plimsoll-punks {
+  flex-shrink: 0;
+  align-self: stretch;
+  height: 50px;
+}
+
+.not-my-baby, .plimsoll-punks, .your-type {
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  position: relative;
+}
+
+.your-type {
+  z-index: 1;
+  flex-shrink: 0;
+  align-self: stretch;
+  height: 50px;
+}
+
+.not-my-baby {
+  flex: 1;
+  height: 51px;
+}
+
+.not-my-baby-wrapper, .your-type-parent {
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.not-my-baby-wrapper {
+  padding: 0 0 0 var(--padding-9xs);
+  flex-direction: row;
+}
+
+.your-type-parent {
+  gap: var(--gap-9xs);
+  flex-direction: column;
+}
+
+.frame-container, .frame-group {
+  justify-content: flex-start;
+  align-items: flex-end;
+  display: flex;
+}
+
+.frame-container {
+  flex-direction: column;
+  width: 258px;
+  min-width: 258px;
+}
+
+.frame-group {
+  padding: 0 var(--padding-xs) 0 0;
+  flex-direction: row;
+  align-self: stretch;
+  gap: 33px;
+}
+
+.recommendation-icon {
+  z-index: 1;
+  object-fit: contain;
+  flex-shrink: 0;
+  align-self: stretch;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 174px;
+  overflow: hidden;
+  transform: scale(2.16);
+}
+
+.wrapper-recommendation {
+  z-index: 1;
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  max-width: 100%;
+  height: 300px;
+  display: flex;
+  position: relative;
+}
+
+.recommendation-icon1 {
+  object-fit: contain;
+  flex-shrink: 0;
+  align-self: stretch;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 174px;
+  overflow: hidden;
+  transform: scale(2.16);
+}
+
+.wrapper-recommendation1 {
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  max-width: 100%;
+  height: 300px;
+  display: flex;
+  position: relative;
+}
+
+.duplicate-recommendation {
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 52px;
+  min-width: 195px;
+  display: flex;
+}
+
+.good-days {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 52px;
+  display: flex;
+  position: relative;
+}
+
+.kill-bill-details {
+  padding: 0 var(--padding-3xl) var(--padding-6xs) 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.i-hate-u {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.i-hate-u-wrapper {
+  padding: 0 0 var(--padding-4xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.shirt {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.shirt-wrapper {
+  padding: 0 var(--padding-38xl) 14px 52px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.nobody-gets-me {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.good-days-titles {
+  padding: 0 var(--padding-xs) 0 var(--padding-6xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.kill-bill {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.kill-bill-details-parent, .kill-bill-wrapper {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.kill-bill-wrapper {
+  padding: 0 var(--padding-3xl) 0 var(--padding-lg);
+  flex-direction: row;
+  align-self: stretch;
+}
+
+.kill-bill-details-parent {
+  gap: var(--gap-xs);
+  flex-direction: column;
+  width: 235px;
+}
+
+.slow-angel {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 51px;
+  display: flex;
+  position: relative;
+}
+
+.slow-angel-wrapper {
+  padding: 0 var(--padding-5xs);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.japanese-posters {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.japanese-posters-wrapper {
+  padding: 0 13px 0 var(--padding-base);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.swim-zone {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 52px;
+  display: flex;
+  position: relative;
+}
+
+.swim-zone-wrapper {
+  padding: 0 var(--padding-lg) 0 var(--padding-9xl);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.lovers, .meet-me-at {
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  position: relative;
+}
+
+.meet-me-at {
+  flex-shrink: 0;
+  align-self: stretch;
+  height: 48px;
+}
+
+.lovers {
+  flex: 1;
+  height: 50px;
+}
+
+.good-days-container {
+  padding: 0 var(--padding-lg) 0 var(--padding-7xl);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.meet-me-at-the-bar-parent {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+
+.deep-angel, .frame-parent3, .meet-me-at-the-bar-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  display: flex;
+}
+
+.frame-parent3 {
+  align-self: stretch;
+  gap: var(--gap-xs);
+}
+
+.deep-angel {
+  gap: var(--gap-lgi);
+  flex: 1;
+}
+
+.deep-angel-wrapper {
+  padding: 0 var(--padding-9xs) 0 0;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-parent2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 55px;
+  width: 249px;
+  min-width: 249px;
+  display: flex;
+}
+
+.duplicate-recommendation-parent, .frame-parent {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.duplicate-recommendation-parent {
+  flex-direction: row;
+  align-self: stretch;
+  gap: 54px;
+}
+
+.frame-parent {
+  flex-direction: column;
+  gap: 41px;
+  width: 603px;
+  min-width: 603px;
+  max-width: 100%;
+}
+
+.reccomendation-column-icon {
+  object-fit: contain;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 174px;
+  overflow: hidden;
+  transform: scale(2.16);
+}
+
+.wrapper-reccomendation-column {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 976px;
+  display: flex;
+  position: relative;
+}
+
+.wrapper-reccomendation-column-wrapper {
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 1px 0 0;
+  display: flex;
+}
+
+.recommendation-icon2 {
+  object-fit: contain;
+  flex-shrink: 0;
+  align-self: stretch;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 174px;
+  overflow: hidden;
+  transform: scale(2.16);
+}
+
+.wrapper-recommendation2 {
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  max-width: 100%;
+  height: 300px;
+  display: flex;
+  position: relative;
+}
+
+.recommendation-icon3 {
+  z-index: 1;
+  object-fit: contain;
+  flex-shrink: 0;
+  align-self: stretch;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 174px;
+  overflow: hidden;
+  transform: scale(2.16);
+}
+
+.wrapper-recommendation3 {
+  z-index: 1;
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: stretch;
+  align-items: center;
+  max-width: 100%;
+  height: 300px;
+  display: flex;
+  position: relative;
+}
+
+.nested-recommendations {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 53px;
+  width: 301px;
+  min-width: 301px;
+  height: 1682px;
+  display: flex;
+}
+
+.all-mine {
+  color: inherit;
+  justify-content: center;
+  align-items: center;
+  height: 51px;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+}
+
+.all-mine-wrapper {
+  padding: 0 var(--padding-28xl);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.worth-the-wait {
+  justify-content: center;
+  align-items: center;
+  height: 51px;
+  display: flex;
+  position: relative;
+}
+
+.worth-the-wait-wrapper {
+  padding: 0 var(--padding-5xs) 0 var(--padding-4xs);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.i-wish-you, .in-my-garden {
+  justify-content: center;
+  align-items: center;
+  height: 51px;
+  display: flex;
+  position: relative;
+}
+
+.in-my-garden {
+  z-index: 1;
+}
+
+.in-my-garden-wrapper {
+  padding: 0 var(--padding-4xs) 0 var(--padding-xs);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.i-wish-you-roses-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-mid);
+}
+
+.frame-parent4, .frame-parent5, .i-wish-you-roses-parent, .user-container-inner {
+  flex-direction: column;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.frame-parent5 {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 13px;
+}
+
+.frame-parent4, .user-container-inner {
+  align-items: flex-start;
+}
+
+.frame-parent4 {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+
+.user-container-inner {
+  box-sizing: border-box;
+  width: 190px;
+  min-width: 190px;
+  padding: 70px 0 0;
+}
+
+.user-display-picture {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  position: relative;
+}
+
+.kayla-tran {
+  font-weight: 600;
+  position: relative;
+}
+
+.kayla-tran-wrapper {
+  padding: 0 23px 0 var(--padding-5xl);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  display: flex;
+}
+
+.user-profilesettings {
+  font-size: 16px;
+  font-family: var(--font-nunito-sans);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 7px;
+  min-width: 125px;
+  display: flex;
+  position: fixed;
+  top: 20px;
+  left: 1780px;
+}
+
+.user-container {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  flex-direction: row;
+  display: flex;
+}
+
+.happy-now {
+  justify-content: center;
+  align-items: center;
+  height: 51px;
+  display: flex;
+  position: relative;
+}
+
+.worth-the-wait-container {
+  padding: 0 var(--padding-5xl);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.deep-user-inner, .user-container-parent {
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.user-container-parent {
+  flex-direction: column;
+  flex: 1;
+}
+
+.deep-user-inner {
+  padding: 0 var(--padding-9xl) var(--padding-lg) 34px;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-self: stretch;
+}
+
+.broken-boy {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 51px;
+  display: flex;
+  position: relative;
+}
+
+.broken-boy-wrapper {
+  padding: 0 0 0 var(--padding-11xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.black-madonna, .night-running, .skin-and-bones, .social-cues {
+  z-index: 1;
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.black-madonna, .night-running, .skin-and-bones {
+  z-index: 2;
+}
+
+.night-running, .skin-and-bones {
+  z-index: 3;
+}
+
+.skin-and-bones {
+  z-index: 4;
+}
+
+.in-undertow-container {
+  padding: 0 var(--padding-xl) var(--padding-10xl) 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 277px;
+  display: flex;
+}
+
+.dead-leaves-and, .hotel-yorba, .im-finding-it {
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.dead-leaves-and, .hotel-yorba {
+  flex-shrink: 0;
+  width: 250px;
+}
+
+.im-finding-it {
+  flex: 1;
+}
+
+.dead-leaves-container {
+  padding: 0 var(--padding-xl) var(--padding-11xl-4) 0;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 270px;
+  display: flex;
+}
+
+.expecting, .fell-in-love {
+  justify-content: center;
+  align-items: flex-end;
+  width: 250px;
+  display: flex;
+}
+
+.fell-in-love {
+  flex-shrink: 0;
+  height: 19.7px;
+  position: relative;
+}
+
+.expecting {
+  height: 50px;
+  top: 6px;
+  left: -5px;
+}
+
+.ask, .expecting, .input {
+  position: absolute;
+  margin: 0 !important;
+}
+
+.input {
+  background-color: var(--muse-color);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+}
+
+.ask {
+  white-space: pre-wrap;
+  justify-content: center;
+  align-items: center;
+  width: 492px;
+  height: 79px;
+  display: flex;
+  top: -6px;
+  left: calc(50% - 246px);
+}
+
+.ask-container {
+  padding: var(--padding-5xs) 0 var(--padding-3xs);
+  box-sizing: border-box;
+  z-index: 1;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 359px;
+  max-width: 100%;
+  height: 69px;
+  font-size: 50px;
+  display: flex;
+  position: relative;
+}
+
+.muse-icon1, .music-note-icon1 {
+  object-fit: cover;
+  width: 84.07%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  position: absolute;
+  inset: 0 15.93% 0 0;
+  overflow: hidden;
+}
+
+.music-note-icon1 {
+  object-fit: contain;
+  z-index: 1;
+  width: 19.3%;
+  height: 70.28%;
+  bottom: 29.72%;
+  left: 80.7%;
+  right: 0;
+}
+
+.muse-logo1 {
+  z-index: 2;
+  width: 172px;
+  height: 72px;
+  margin-left: -145px;
+  position: relative;
+}
+
+.chatbot {
+  z-index: 1000;
+  display: block;
+  position: fixed;
+  top: 1047px;
+  left: 1535px;
+}
+
+.ask-container, .muse-logo1 {
+  right: 50px;
+}
+
+.chatbot-closed, .chatbot, .chatbot-closed-wrapper, .fell-in-love-with-a-parent {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.chatbot-closed {
+  padding: var(--padding-5xs) 0 0;
+  z-index: 1;
+  flex: 1;
+  align-items: flex-end;
+  position: relative;
+}
+
+.chatbot-closed-wrapper, .fell-in-love-with-a-parent {
+  padding: 0 0 0 var(--padding-8xs);
+  align-self: stretch;
+  align-items: flex-start;
+}
+
+.fell-in-love-with-a-parent {
+  padding: 0 0 var(--padding-xl);
+  flex-direction: column;
+  gap: 11.9px;
+}
+
+.understand {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 52px;
+  display: flex;
+  position: relative;
+}
+
+.understand-wrapper {
+  padding: 0 var(--padding-2xl) var(--padding-6xl);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 288px;
+  display: flex;
+}
+
+.new-me {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.new-me-wrapper {
+  padding: 0 var(--padding-38xl) var(--padding-base);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 314px;
+  display: flex;
+}
+
+.got-the-juice {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.leaves-titles {
+  padding: 0 var(--padding-28xl) var(--padding-2xl);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 297px;
+  display: flex;
+}
+
+.neva {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.leaves-titles1 {
+  padding: 0 var(--padding-42xl) 19px;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 316px;
+  display: flex;
+}
+
+.never-lose-me {
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.dead-leaves-and-parent, .never-lose-me-wrapper {
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.never-lose-me-wrapper {
+  padding: 0 var(--padding-42xl);
+  flex-direction: row;
+  width: 318px;
+}
+
+.dead-leaves-and-parent {
+  flex-direction: column;
+  align-self: stretch;
+  max-width: 100%;
+  padding: 0 0 32px;
+}
+
+.shut-it-down, .triumph {
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-end;
+  height: 51px;
+  display: flex;
+  position: relative;
+}
+
+.shut-it-down {
+  height: 50px;
+}
+
+.triumph-songs, .triumph-songs-wrapper {
+  justify-content: flex-start;
+  display: flex;
+}
+
+.triumph-songs {
+  align-items: flex-end;
+  gap: var(--gap-base);
+  flex-direction: column;
+  flex: 1;
+}
+
+.triumph-songs-wrapper {
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 268px;
+  padding: 0 33px;
+}
+
+.girls, .i-know-you {
+  justify-content: center;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.i-know-you {
+  flex-shrink: 0;
+}
+
+.girls {
+  flex: 1;
+}
+
+.user-container1 {
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 176px;
+  display: flex;
+}
+
+.full-of-shit {
+  flex-shrink: 0;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-end;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.user-container-group {
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: var(--gap-lgi);
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.i-w-k-y-w-songs-inner {
+  padding: 0 var(--padding-5xl) 0 var(--padding-6xl);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.i-w-k-y-w-songs {
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: var(--gap-sm);
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.i-w-k-y-w-songs-wrapper {
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 296px;
+  display: flex;
+}
+
+.deep-user, .deep-user-wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.deep-user {
+  justify-content: flex-start;
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+
+.deep-user-wrapper {
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 328px;
+}
+
+.homepage, .nested-recommendations-parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  display: flex;
+}
+
+.nested-recommendations-parent {
+  flex: 1;
+  gap: 35px;
+  min-width: 547px;
+  max-width: 100%;
+}
+
+.homepage {
+  padding: var(--padding-xl) 0 var(--padding-7xl) 282px;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  text-align: center;
+  line-height: normal;
+  font-size: var(--default-reg-text-style-size);
+  color: var(--color-black);
+  font-family: var(--default-reg-text-style);
+  background-color: #fff;
+  gap: 194px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (width <= 1525px) {
+  .frame-parent {
+    flex: 1;
+  }
+
+  .homepage {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (width <= 1225px) {
+  .frame-parent, .nested-recommendations-parent {
+    min-width: 100%;
+  }
+
+  .homepage {
+    gap: 97px;
+  }
+}
+
+@media screen and (width <= 850px) {
+  .breathe-in-the, .dreams-tonite, .everybody-dies, .happier-than-ever, .in-undertow, .lost-cause, .nda, .not-my-baby, .on-the-run, .oxytocin, .plimsoll-punks, .speak-to-me, .the-great-gig, .time, .your-type {
+    font-size: var(--font-size-5xl);
+  }
+
+  .frame-container {
+    flex: 1;
+  }
+
+  .frame-group {
+    gap: var(--gap-base);
+    flex-wrap: wrap;
+  }
+
+  .good-days, .i-hate-u, .japanese-posters, .kill-bill, .lovers, .meet-me-at, .nobody-gets-me, .shirt, .slow-angel, .swim-zone {
+    font-size: var(--font-size-5xl);
+  }
+
+  .frame-parent2 {
+    flex: 1;
+  }
+
+  .duplicate-recommendation-parent {
+    flex-wrap: wrap;
+    gap: 27px;
+  }
+
+  .frame-parent {
+    gap: var(--gap-xl);
+  }
+
+  .nested-recommendations {
+    flex: 1;
+  }
+
+  .all-mine, .black-madonna, .broken-boy, .dead-leaves-and, .expecting, .fell-in-love, .happy-now, .hotel-yorba, .i-wish-you, .im-finding-it, .in-my-garden, .night-running, .skin-and-bones, .social-cues, .worth-the-wait {
+    font-size: var(--font-size-5xl);
+  }
+
+  .ask {
+    font-size: 40px;
+  }
+
+  .full-of-shit, .girls, .got-the-juice, .i-know-you, .neva, .never-lose-me, .new-me, .shut-it-down, .triumph, .understand {
+    font-size: var(--font-size-5xl);
+  }
+
+  .nested-recommendations-parent {
+    flex-wrap: wrap;
+  }
+
+  .homepage {
+    gap: 48px;
+  }
+}
+
+@media screen and (width <= 450px) {
+  .breathe-in-the, .everybody-dies, .happier-than-ever, .lost-cause, .nda, .on-the-run, .oxytocin, .speak-to-me, .the-great-gig, .time {
+    font-size: var(--font-size-lg);
+  }
+
+  .time-parent {
+    gap: var(--gap-mid);
+  }
+
+  .dreams-tonite, .in-undertow, .not-my-baby, .plimsoll-punks, .your-type {
+    font-size: var(--font-size-lg);
+  }
+
+  .duplicate-recommendation {
+    gap: var(--gap-7xl);
+  }
+
+  .good-days, .i-hate-u, .japanese-posters, .kill-bill, .lovers, .meet-me-at, .nobody-gets-me, .shirt, .slow-angel, .swim-zone {
+    font-size: var(--font-size-lg);
+  }
+
+  .nested-recommendations {
+    gap: var(--gap-7xl);
+  }
+
+  .all-mine, .i-wish-you, .in-my-garden, .worth-the-wait {
+    font-size: var(--font-size-lg);
+  }
+
+  .user-container-inner, .user-profilesettings {
+    flex: 1;
+  }
+
+  .user-container {
+    flex-wrap: wrap;
+  }
+
+  .black-madonna, .broken-boy, .dead-leaves-and, .expecting, .fell-in-love, .happy-now, .hotel-yorba, .im-finding-it, .night-running, .skin-and-bones, .social-cues {
+    font-size: var(--font-size-lg);
+  }
+
+  .ask {
+    font-size: var(--default-reg-text-style-size);
+  }
+
+  .new-me, .understand {
+    font-size: var(--font-size-lg);
+  }
+
+  .new-me-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .got-the-juice {
+    font-size: var(--font-size-lg);
+  }
+
+  .leaves-titles {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .neva {
+    font-size: var(--font-size-lg);
+  }
+
+  .leaves-titles1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .never-lose-me {
+    font-size: var(--font-size-lg);
+  }
+
+  .never-lose-me-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .full-of-shit, .girls, .i-know-you, .shut-it-down, .triumph {
+    font-size: var(--font-size-lg);
+  }
+
+  .nested-recommendations-parent {
+    gap: var(--gap-mid);
+  }
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
