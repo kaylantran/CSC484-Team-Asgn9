@@ -1,4 +1,4 @@
-muse-icon, .music-note-icon {
+.muse-icon, .music-note-icon {
   object-fit: cover;
   width: 84.05%;
   max-width: 100%;
@@ -25,7 +25,7 @@ muse-icon, .music-note-icon {
   justify-content: flex-start;
   align-items: flex-end;
   width: 267.7px;
-  height: 100px;
+  height: 112px;
   display: flex;
   position: fixed;
   top: 16px;

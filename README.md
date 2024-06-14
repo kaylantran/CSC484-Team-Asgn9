@@ -6,8 +6,7 @@
 
   ### Video Demo
 
-  Click below to watch the demo, a visual guide on how this project works. 
-  *insert here
+  [Click jere to watch a demo](./public/asgn9demo.mp4), a visual guide on how this project works. It can also be found in the public directory in the repository.
 
   ## Setup Instructions
 
