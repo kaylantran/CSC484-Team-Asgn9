@@ -1,3 +1,55 @@
+.muse-icon,
+.music-note-icon {
+  position: absolute;
+  height: 100%;
+  width: 84.05%;
+  top: 0;
+  right: 15.95%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.music-note-icon {
+  height: 70.27%;
+  width: 19.31%;
+  right: 0;
+  bottom: 29.73%;
+  left: 80.69%;
+  object-fit: contain;
+  z-index: 1;
+}
+.image-1-icon,
+.image-2-icon,
+.muse-logo {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 1;
+}
+.muse-logo {
+  height: 112px;
+  width: 267.7px;
+  top: 16px;
+  left: 16px;
+}
+.image-1-icon,
+.image-2-icon {
+  object-fit: cover;
+}
+.image-2-icon {
+  height: 316px;
+  width: 316px;
+  right: 525px;
+  bottom: 358px;
+}
+.image-1-icon {
+  height: 300px;
+  width: 300px;
+  bottom: 378px;
+  left: 282px;
+}
 .recommendation-column-icon {
   align-self: stretch;
   height: 100%;
@@ -26,13 +78,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0 7px;
+  padding: 0 0 var(--padding-6xs);
   box-sizing: border-box;
   min-width: 195px;
 }
 .everybody-dies,
-.lost-cause1 {
-  height: 51px;
+.lost-cause {
   position: relative;
   display: flex;
   align-items: center;
@@ -40,13 +91,15 @@
 }
 .everybody-dies {
   align-self: stretch;
+  height: 50px;
   flex-shrink: 0;
 }
-.lost-cause1 {
+.lost-cause {
   text-decoration: none;
+  height: 51px;
   color: inherit;
 }
-.lost-cause-container {
+.cause-titles {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -59,17 +112,17 @@
   position: relative;
   align-items: center;
 }
+.cause-titles1,
 .nda,
-.nda-wrapper,
 .oxytocin {
   display: flex;
   justify-content: center;
 }
-.nda-wrapper {
+.cause-titles1 {
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 25px 0 var(--padding-xl);
+  padding: 0 var(--padding-6xl) 0 var(--padding-xl);
 }
 .oxytocin {
   height: 51px;
@@ -91,41 +144,42 @@
   align-items: center;
   justify-content: center;
 }
-.frame-group,
-.lost-cause-inner {
+.dead-leaves-inner,
+.frame-div {
   display: flex;
   align-items: flex-start;
 }
-.frame-group {
+.frame-div {
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-9xs);
 }
-.lost-cause-inner {
+.dead-leaves-inner {
   align-self: stretch;
   flex-direction: row;
   justify-content: flex-end;
   padding: 0 var(--padding-5xs) 0 17px;
 }
-.lost-cause {
+.dead-leaves {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
-  gap: 14px;
+  gap: var(--gap-sm);
 }
-.lost-cause-wrapper {
+.dead-leaves-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-3xs) var(--padding-15xl) var(--padding-5xs);
+  padding: 0 var(--padding-3xs) 36px var(--padding-5xs);
 }
 .breathe-in-the,
 .speak-to-me {
+  height: 50px;
   position: relative;
   color: inherit;
   display: flex;
@@ -136,11 +190,9 @@
 }
 .speak-to-me {
   align-self: stretch;
-  height: 50px;
 }
 .breathe-in-the {
   width: 240px;
-  height: 51px;
 }
 .speak-to-me-parent {
   width: 250px;
@@ -148,12 +200,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0 var(--padding-3xl);
+  padding: 0 0 var(--padding-5xl);
   box-sizing: border-box;
   gap: var(--gap-5xs);
 }
 .on-the-run {
-  height: 51px;
+  height: 50px;
   flex: 1;
   position: relative;
   display: flex;
@@ -166,37 +218,39 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-3xs) 28.4px 3px;
-}
-.time {
-  flex: 1;
-  position: relative;
-  line-height: 19.7px;
+  padding: 0 var(--padding-3xs) var(--padding-11xl-4) 3px;
 }
 .the-great-gig,
-.time-wrapper {
-  align-self: stretch;
-  display: flex;
-}
-.time-wrapper {
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 var(--padding-3xs) 31.3px var(--padding-11xs);
-}
-.the-great-gig {
+.time {
   position: relative;
+  display: flex;
   align-items: flex-end;
   justify-content: center;
+  flex-shrink: 0;
 }
-.the-great-gig-in-the-wrapper {
-  height: 85.6px;
+.time {
+  align-self: stretch;
+  height: 19.7px;
+}
+.the-great-gig {
+  height: 25.1px;
+}
+.frame-wrapper,
+.time-parent {
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
+}
+.time-parent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 33.3px;
+}
+.frame-wrapper {
+  align-self: stretch;
+  flex-direction: row;
   justify-content: flex-end;
-  padding: 0 var(--padding-8xs) 60.5px var(--padding-11xs);
-  box-sizing: border-box;
+  padding: 0 var(--padding-8xs) 62.5px var(--padding-11xs);
 }
 .dreams-tonite,
 .in-undertow {
@@ -207,13 +261,12 @@
 }
 .in-undertow {
   align-self: stretch;
-  height: 53px;
+  height: 50px;
   flex-shrink: 0;
 }
 .dreams-tonite {
   height: 48px;
   flex: 1;
-  line-height: 48px;
 }
 .dreams-tonite-wrapper {
   align-self: stretch;
@@ -231,7 +284,7 @@
   justify-content: flex-start;
   gap: 10px;
 }
-.main-content-inner {
+.frame-wrapper1 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -241,12 +294,12 @@
 }
 .plimsoll-punks {
   align-self: stretch;
+  height: 50px;
   flex-shrink: 0;
 }
 .not-my-baby,
 .plimsoll-punks,
 .your-type {
-  height: 51px;
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -254,90 +307,322 @@
 }
 .your-type {
   align-self: stretch;
+  height: 50px;
   flex-shrink: 0;
   z-index: 1;
 }
 .not-my-baby {
+  height: 51px;
   flex: 1;
 }
 .not-my-baby-wrapper,
 .your-type-parent {
+  align-self: stretch;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .not-my-baby-wrapper {
-  align-self: stretch;
   flex-direction: row;
-  padding: 0 0 0 4px;
+  padding: 0 0 0 var(--padding-9xs);
 }
 .your-type-parent {
+  flex-direction: column;
   gap: var(--gap-9xs);
 }
-.plimsoll-punks-parent,
-.your-type-parent {
-  align-self: stretch;
-  flex-direction: column;
-}
-.frame-parent,
-.main-content,
-.plimsoll-punks-parent {
+.frame-container,
+.frame-group {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
 }
-.main-content {
+.frame-container {
   width: 258px;
   flex-direction: column;
-  gap: 2px;
   min-width: 258px;
 }
-.frame-parent {
+.frame-group {
   align-self: stretch;
   flex-direction: row;
+  padding: 0 var(--padding-xs) 0 0;
   gap: 33px;
 }
-.main {
-  width: 591px;
+.recommendation-icon {
+  align-self: stretch;
+  height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  position: absolute;
+  left: 174px;
+  top: 0;
+  width: 100%;
+  transform: scale(2.16);
+}
+.wrapper-recommendation {
+  align-self: stretch;
+  height: 300px;
+  position: relative;
+  max-width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recommendation-icon1 {
+  align-self: stretch;
+  height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  position: absolute;
+  left: 174px;
+  top: 0;
+  width: 100%;
+  transform: scale(2.16);
+}
+.wrapper-recommendation1 {
+  align-self: stretch;
+  height: 300px;
+  position: relative;
+  max-width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-recommendation-parent {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
+  gap: 52px;
+  min-width: 195px;
+}
+.good-days {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.good-days-titles {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) var(--padding-6xs) 0;
+}
+.i-hate-u {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.i-hate-u-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xs);
+}
+.shirt {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.good-days-titles1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-38xl) 14px 52px;
+}
+.nobody-gets-me {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.nobody-gets-me-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) 0 var(--padding-6xs);
+}
+.kill-bill {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.good-days-titles-parent,
+.good-days-titles2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.good-days-titles2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xl) 0 var(--padding-lg);
+}
+.good-days-titles-parent {
+  width: 235px;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.slow-angel {
+  height: 51px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.slow-angel-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 0 19px;
-  box-sizing: border-box;
-  min-width: 591px;
+  padding: 0 var(--padding-5xs);
+}
+.japanese-posters {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.japanese-posters-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 13px 0 var(--padding-base);
+}
+.swim-zone {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.swim-zone-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lg) 0 var(--padding-9xl);
+}
+.lovers,
+.meet-me-at {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.meet-me-at {
+  align-self: stretch;
+  height: 48px;
+  flex-shrink: 0;
+}
+.lovers {
+  height: 50px;
+  flex: 1;
+}
+.lovers-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lg) 0 var(--padding-7xl);
+}
+.meet-me-at-the-bar-parent {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.frame-parent3,
+.frame-parent4,
+.meet-me-at-the-bar-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frame-parent4 {
+  align-self: stretch;
+  gap: var(--gap-xs);
+}
+.frame-parent3 {
+  flex: 1;
+  gap: var(--gap-lgi);
+}
+.frame-wrapper2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.frame-parent2 {
+  width: 249px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 55px;
+  min-width: 249px;
+}
+.frame-parent,
+.frame-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 54px;
+}
+.frame-parent {
+  width: 603px;
+  flex-direction: column;
+  gap: 41px;
+  min-width: 603px;
   max-width: 100%;
 }
-.muse-icon,
-.music-note-icon {
-  position: absolute;
-  height: 100%;
-  width: 84.05%;
-  top: 0;
-  right: 15.95%;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-.music-note-icon {
-  height: 70.27%;
-  width: 19.31%;
-  right: 0;
-  bottom: 29.73%;
-  left: 80.69%;
-  object-fit: contain;
-  z-index: 1;
-}
-.muse-logo {
-  height: 112px;
-  width: 267.7px;
+.image-3-icon {
+  height: 300px;
+  width: 300px;
   position: absolute;
   margin: 0 !important;
-  top: 16px;
-  left: 16px;
+  bottom: 26px;
+  left: 282px;
+  object-fit: cover;
   z-index: 1;
 }
 .reccomendation-column-icon {
@@ -362,16 +647,67 @@
   align-items: center;
   justify-content: center;
 }
-.reccomendation-container {
-  height: 1002px;
-  width: 300px;
+.recommendation-icon2 {
+  align-self: stretch;
+  height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  position: absolute;
+  left: 174px;
+  top: 0;
+  width: 100%;
+  transform: scale(2.16);
+}
+.wrapper-recommendation2 {
+  align-self: stretch;
+  height: 300px;
+  position: relative;
+  max-width: 100%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recommendation-icon3 {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  left: 174px;
+  top: 0;
+  width: 100%;
+  transform: scale(2.16);
+}
+.wrapper-recommendation3 {
+  height: 300px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-recommendation-wrapper {
+  align-self: stretch;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 1px;
+  box-sizing: border-box;
+}
+.wrapper-reccomendation-column-parent {
+  height: 1676px;
+  width: 301px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 0 26px;
-  box-sizing: border-box;
-  min-width: 300px;
+  justify-content: flex-start;
+  gap: 50px;
+  min-width: 301px;
 }
 .all-mine {
   text-decoration: none;
@@ -382,13 +718,13 @@
   align-items: center;
   justify-content: center;
 }
-.additional-recommendations {
+.all-mine-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 47px;
+  padding: 0 var(--padding-28xl);
 }
 .worth-the-wait {
   height: 51px;
@@ -397,7 +733,7 @@
   align-items: center;
   justify-content: center;
 }
-.recommendation-list {
+.worth-the-wait-wrapper {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -424,7 +760,7 @@
   justify-content: center;
 }
 .happy-now-wrapper,
-.in-my-garden-details {
+.in-my-garden-parent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -434,11 +770,11 @@
   flex-direction: row;
   padding: 0 var(--padding-3xl) 0 var(--padding-xs);
 }
-.in-my-garden-details {
+.in-my-garden-parent {
   flex: 1;
   flex-direction: column;
 }
-.music-recommendations {
+.frame-wrapper6 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -446,26 +782,27 @@
   justify-content: flex-end;
   padding: 0 var(--padding-4xs) 0 var(--padding-xs);
 }
-.recommendation-list-parent {
-  align-self: stretch;
+.frame-parent8,
+.frame-parent9,
+.frame-wrapper5 {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   justify-content: flex-start;
+}
+.frame-parent9 {
+  align-self: stretch;
+  align-items: flex-end;
   gap: 15px;
 }
-.additional-recommendations-parent,
-.user-inner-container-inner {
-  display: flex;
-  flex-direction: column;
+.frame-parent8,
+.frame-wrapper5 {
   align-items: flex-start;
-  justify-content: flex-start;
 }
-.additional-recommendations-parent {
+.frame-parent8 {
   align-self: stretch;
   gap: var(--gap-5xs);
 }
-.user-inner-container-inner {
+.frame-wrapper5 {
   width: 190px;
   padding: 70px 0 0;
   box-sizing: border-box;
@@ -482,12 +819,12 @@
   position: relative;
   font-weight: 600;
 }
-.user-name-container {
+.kayla-tran-wrapper {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 23px 0 24px;
+  padding: 0 23px 0 var(--padding-5xl);
 }
 .user-profilesettings {
   display: flex;
@@ -499,22 +836,22 @@
   font-size: 16px;
   font-family: var(--font-nunito-sans);
 }
-.user-container,
-.user-inner-container {
+.frame-parent7,
+.frame-wrapper4 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
 }
-.user-inner-container {
+.frame-parent7 {
   flex: 1;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.user-container {
+.frame-wrapper4 {
   align-self: stretch;
   justify-content: flex-start;
-  padding: 0 28px 0 var(--padding-15xl);
+  padding: 0 var(--padding-9xl) var(--padding-lg) 34px;
   box-sizing: border-box;
 }
 .broken-boy {
@@ -536,9 +873,9 @@
 .black-madonna,
 .night-running,
 .skin-and-bones,
-.social-cues1 {
+.social-cues {
   align-self: stretch;
-  height: 51px;
+  height: 50px;
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -558,19 +895,19 @@
 .skin-and-bones {
   z-index: 4;
 }
-.social-cues {
+.frame-parent10 {
   width: 277px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-xl) 11px 0;
+  padding: 0 var(--padding-xl) var(--padding-10xl) 0;
   box-sizing: border-box;
 }
 .dead-leaves-and,
 .hotel-yorba,
 .im-finding-it {
-  height: 51px;
+  height: 50px;
   position: relative;
   display: flex;
   align-items: flex-end;
@@ -584,41 +921,31 @@
 .im-finding-it {
   flex: 1;
 }
-.dead-leaves-title {
+.leaves-titles {
   width: 270px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-xl) 30.4px 0;
+  padding: 0 var(--padding-xl) var(--padding-11xl-4) 0;
   box-sizing: border-box;
+}
+.expecting,
+.fell-in-love {
+  width: 250px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 .fell-in-love {
-  align-self: stretch;
-  flex: 1;
+  height: 19.7px;
   position: relative;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-.dead-leaves-title1 {
-  width: 270px;
-  height: 31.6px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-xl) 11.9px 0;
-  box-sizing: border-box;
+  flex-shrink: 0;
 }
 .expecting {
-  height: 53px;
-  width: 250px;
+  height: 50px;
   top: 6px;
   left: -5px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
 }
 .ask,
 .expecting,
@@ -691,108 +1018,310 @@
   z-index: 2;
   margin-left: -145px;
 }
-.chatbot-closed {
-  flex: 1;
+.chatbot-closed,
+.chatbot-closed-wrapper,
+.fell-in-love-with-a-parent {
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
   justify-content: flex-start;
-  padding: var(--padding-5xs) 0 0;
   box-sizing: border-box;
-  position: relative;
   max-width: 100%;
+}
+.chatbot-closed {
+  flex: 1;
+  align-items: flex-end;
+  padding: var(--padding-5xs) 0 0;
+  position: relative;
   z-index: 1;
 }
-.chatbot-container,
-.dead-leaves,
-.top-songs {
+.chatbot-closed-wrapper,
+.fell-in-love-with-a-parent {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+}
+.fell-in-love-with-a-parent {
+  flex-direction: column;
+  padding: 0 0 var(--padding-xl);
+  gap: 11.9px;
+}
+.understand {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.understand-wrapper {
+  width: 288px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl) var(--padding-6xl);
+  box-sizing: border-box;
+}
+.new-me {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.leaves-titles1 {
+  width: 314px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-38xl) var(--padding-base);
+  box-sizing: border-box;
+}
+.got-the-juice {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.leaves-titles2 {
+  width: 297px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-28xl) var(--padding-2xl);
+  box-sizing: border-box;
+}
+.neva {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.leaves-titles3 {
+  width: 316px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-42xl) 19px;
+  box-sizing: border-box;
+}
+.never-lose-me {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.dead-leaves-and-parent,
+.leaves-titles4 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  box-sizing: border-box;
+}
+.leaves-titles4 {
+  width: 318px;
+  flex-direction: row;
+  padding: 0 var(--padding-42xl);
+}
+.dead-leaves-and-parent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 32px;
   max-width: 100%;
 }
-.chatbot-container {
+.shut-it-down,
+.triumph {
   align-self: stretch;
-  flex-direction: row;
-  padding: 0 0 0 var(--padding-8xs);
-  box-sizing: border-box;
+  height: 51px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
 }
-.dead-leaves,
-.top-songs {
-  flex-direction: column;
+.shut-it-down {
+  height: 50px;
 }
-.dead-leaves {
-  align-self: stretch;
+.frame-wrapper7,
+.triumph-parent {
+  display: flex;
+  justify-content: flex-start;
 }
-.top-songs {
-  height: 1060px;
+.triumph-parent {
   flex: 1;
-  padding: 0 0 367px;
-  box-sizing: border-box;
-  gap: 34px;
-  min-width: 328px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-base);
 }
-.homepage,
-.reccomendation-container-parent {
+.frame-wrapper7 {
+  width: 268px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 33px;
+  box-sizing: border-box;
+}
+.girls,
+.i-know-you {
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.i-know-you {
+  flex-shrink: 0;
+}
+.girls {
+  flex: 1;
+}
+.girls-wrapper {
+  width: 176px;
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.frame-parent11,
+.full-of-shit {
+  display: flex;
   align-items: flex-end;
 }
-.reccomendation-container-parent {
-  width: 841px;
+.full-of-shit {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.frame-parent11 {
+  flex: 1;
+  flex-direction: column;
   justify-content: flex-start;
-  gap: 36px;
-  min-width: 841px;
+  gap: var(--gap-lgi);
+}
+.frame-wrapper9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xl) 0 var(--padding-6xl);
+}
+.i-know-you-want-me-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.frame-parent6,
+.frame-wrapper8 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper8 {
+  width: 296px;
+  flex-direction: row;
+  padding: 0 var(--padding-10xl);
+  box-sizing: border-box;
+}
+.frame-parent6 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-base);
   max-width: 100%;
+}
+.frame-parent5,
+.frame-wrapper3 {
+  flex: 1;
+  display: flex;
+  max-width: 100%;
+}
+.frame-wrapper3 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  min-width: 328px;
+}
+.frame-parent5 {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 35px;
+  min-width: 547px;
+}
+.image-4-icon {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  margin: 0 !important;
+  right: 540px;
+  bottom: 26px;
+  object-fit: cover;
+  z-index: 1;
 }
 .homepage {
   width: 100%;
   position: relative;
   background-color: #fff;
   overflow: hidden;
-  justify-content: space-between;
-  padding: var(--padding-xl) 0 0 282px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 var(--padding-7xl) 282px;
   box-sizing: border-box;
+  gap: 194px;
   line-height: normal;
   letter-spacing: normal;
-  gap: var(--gap-xl);
   text-align: center;
   font-size: var(--default-reg-text-style-size);
   color: var(--color-black);
   font-family: var(--default-reg-text-style);
 }
-@media screen and (max-width: 1725px) {
-  .main,
-  .reccomendation-container-parent {
+@media screen and (max-width: 1525px) {
+  .frame-parent {
     flex: 1;
   }
   .homepage {
     flex-wrap: wrap;
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
-    padding-bottom: var(--padding-xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 1325px) {
-  .main {
+@media screen and (max-width: 1225px) {
+  .frame-parent,
+  .frame-parent5 {
     min-width: 100%;
   }
-  .top-songs {
-    padding-bottom: 239px;
-    box-sizing: border-box;
-  }
-  .reccomendation-container-parent {
-    min-width: 100%;
+  .homepage {
+    gap: 97px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 850px) {
   .breathe-in-the,
   .dreams-tonite,
   .everybody-dies,
   .happier-than-ever,
   .in-undertow,
-  .lost-cause1,
+  .lost-cause,
   .nda,
   .not-my-baby,
   .on-the-run,
@@ -804,18 +1333,36 @@
   .your-type {
     font-size: var(--font-size-5xl);
   }
-  .main-content {
+  .frame-container {
     flex: 1;
   }
-  .frame-parent {
+  .frame-group {
     flex-wrap: wrap;
-    gap: 16px;
+    gap: var(--gap-base);
   }
-  .reccomendation-column-icon {
-    align-self: stretch;
-    width: auto;
+  .good-days,
+  .i-hate-u,
+  .japanese-posters,
+  .kill-bill,
+  .lovers,
+  .meet-me-at,
+  .nobody-gets-me,
+  .shirt,
+  .slow-angel,
+  .swim-zone {
+    font-size: var(--font-size-5xl);
   }
-  .reccomendation-container {
+  .frame-parent2 {
+    flex: 1;
+  }
+  .frame-parent1 {
+    flex-wrap: wrap;
+    gap: 27px;
+  }
+  .frame-parent {
+    gap: var(--gap-xl);
+  }
+  .wrapper-reccomendation-column-parent {
     flex: 1;
   }
   .all-mine,
@@ -831,46 +1378,81 @@
   .in-my-garden,
   .night-running,
   .skin-and-bones,
-  .social-cues1,
+  .social-cues,
   .worth-the-wait {
     font-size: var(--font-size-5xl);
   }
   .ask {
     font-size: 40px;
   }
-  .top-songs {
-    gap: 17px;
-    padding-bottom: 155px;
-    box-sizing: border-box;
+  .full-of-shit,
+  .girls,
+  .got-the-juice,
+  .i-know-you,
+  .neva,
+  .never-lose-me,
+  .new-me,
+  .shut-it-down,
+  .triumph,
+  .understand {
+    font-size: var(--font-size-5xl);
   }
-  .reccomendation-container-parent {
+  .frame-parent5 {
     flex-wrap: wrap;
+  }
+  .homepage {
+    gap: 48px;
   }
 }
 @media screen and (max-width: 450px) {
-  .all-mine,
   .breathe-in-the,
-  .dreams-tonite,
   .everybody-dies,
   .happier-than-ever,
-  .happy-now,
-  .i-wish-you,
-  .in-my-garden,
-  .in-undertow,
-  .lost-cause1,
+  .lost-cause,
   .nda,
-  .not-my-baby,
   .on-the-run,
   .oxytocin,
-  .plimsoll-punks,
   .speak-to-me,
   .the-great-gig,
-  .time,
-  .worth-the-wait,
+  .time {
+    font-size: var(--font-size-lg);
+  }
+  .time-parent {
+    gap: var(--gap-mid);
+  }
+  .dreams-tonite,
+  .in-undertow,
+  .not-my-baby,
+  .plimsoll-punks,
   .your-type {
     font-size: var(--font-size-lg);
   }
-  .user-inner-container-inner {
+  .wrapper-recommendation-parent {
+    gap: 26px;
+  }
+  .good-days,
+  .i-hate-u,
+  .japanese-posters,
+  .kill-bill,
+  .lovers,
+  .meet-me-at,
+  .nobody-gets-me,
+  .shirt,
+  .slow-angel,
+  .swim-zone {
+    font-size: var(--font-size-lg);
+  }
+  .wrapper-reccomendation-column-parent {
+    gap: 25px;
+  }
+  .all-mine,
+  .happy-now,
+  .i-wish-you,
+  .in-my-garden,
+  .worth-the-wait {
+    font-size: var(--font-size-lg);
+  }
+  .frame-wrapper5 {
     flex: 1;
     padding-top: 45px;
     box-sizing: border-box;
@@ -878,7 +1460,7 @@
   .user-profilesettings {
     flex: 1;
   }
-  .user-inner-container {
+  .frame-parent7 {
     flex-wrap: wrap;
   }
   .black-madonna,
@@ -890,16 +1472,53 @@
   .im-finding-it,
   .night-running,
   .skin-and-bones,
-  .social-cues1 {
+  .social-cues {
     font-size: var(--font-size-lg);
   }
   .ask {
     font-size: var(--default-reg-text-style-size);
   }
-  .top-songs {
-    height: auto;
+  .new-me,
+  .understand {
+    font-size: var(--font-size-lg);
   }
-  .reccomendation-container-parent {
-    gap: 18px;
+  .leaves-titles1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .got-the-juice {
+    font-size: var(--font-size-lg);
+  }
+  .leaves-titles2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .neva {
+    font-size: var(--font-size-lg);
+  }
+  .leaves-titles3 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .never-lose-me {
+    font-size: var(--font-size-lg);
+  }
+  .leaves-titles4 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .full-of-shit,
+  .girls,
+  .i-know-you,
+  .shut-it-down,
+  .triumph {
+    font-size: var(--font-size-lg);
+  }
+  .frame-parent5 {
+    gap: var(--gap-mid);
   }
 }
