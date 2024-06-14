@@ -1026,6 +1026,9 @@
   left: 1535px;
   z-index: 1000;
 }
+.ask-container, .muse-logo1{
+  right:50px;
+}
 .chatbot-closed,
 .chatbot,
 .chatbot-closed-wrapper,
